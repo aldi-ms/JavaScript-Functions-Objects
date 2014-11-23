@@ -14,7 +14,6 @@ function sumTwoHugeNumbers(value) {
         num = Number(longer[i]) + Number(shorter[i]);
         if (carry) num++;
         carry = num > 9;
-
         res = num % 10 + res;
     }
     return res;
