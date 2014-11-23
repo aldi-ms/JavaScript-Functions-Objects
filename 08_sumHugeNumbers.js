@@ -1,16 +1,6 @@
 'use strict';
 
 function sumTwoHugeNumbers(value) {
-    //var longerIsNegative = false;
-    //var shorterIsNegative = false;
-    //if (value[0][0] == '-') {
-    //    longerIsNegative = true;
-    //    value[0] = value[0].substring(1);
-    //}
-    //if (value[1][0] == '-') {
-    //    shorterIsNegative = true;
-    //    value[1] = value[1].substring(1);
-    //}
     var longer = value[0].length >= value[1].length ? value[0] : value[1];
     var shorter = value[1].length > value[0].length ? value[0] : value[1];
     var res = '';
